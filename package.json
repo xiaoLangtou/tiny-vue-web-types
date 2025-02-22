@@ -1,6 +1,6 @@
 {
   "name": "@xlt-group/opentiny-web-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "为opentiny-vue提供IDE智能化提示",
   "files": [
     "types/"
