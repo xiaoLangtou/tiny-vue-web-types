@@ -33,8 +33,6 @@ tiny-vue-types/
 │   ├── vetur-attributes.json   # Vetur 属性提示文件
 │   ├── vetur-tags.json         # Vetur 组件提示文件
 │── package.json
-│── index.js                    # 入口文件
-│── generateTypes.js            # 生成 types 数据的脚本
 │── README.md                   # 项目文档
 
 ```
