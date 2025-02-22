@@ -1,0 +1,25 @@
+{
+  "name": "@xlt-group/opentiny-web-types",
+  "version": "1.0.0",
+  "description": "为opentiny-vue提供IDE智能化提示",
+  "files": [
+    "types/"
+  ],
+  "keywords": [
+    "tiny-vue",
+    "web-types",
+    "vetur",
+    "vue",
+    "intellisense"
+  ],
+  "author": "weiPengCheng",
+  "publishConfig": {
+    "access": "public"
+  },
+  "web-types": "types/web-types.json",
+  "vetur": {
+    "tags": "types/vetur-tags.json",
+    "attributes": "types/vetur-attributes.json"
+  },
+  "license": "MIT"
+}
