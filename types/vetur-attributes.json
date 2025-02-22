@@ -5,7 +5,7 @@
   },
   "tiny-action-menu/mode": {
     "description": "菜单按钮模式",
-    "type": "\"default\" | \"card\""
+    "type": "'default' | 'card'"
   },
   "tiny-action-menu/more-text": {
     "description": "下拉按钮文本",
@@ -408,7 +408,7 @@
     "type": "number | string"
   },
   "tiny-base-select/all-text": {
-    "description": "当下拉中显示全部时，自定义全部的显示文本。不指定时，则默认显示\"全部\"",
+    "description": "当下拉中显示全部时，自定义全部的显示文本。不指定时，则默认显示'全部'",
     "type": "string"
   },
   "tiny-base-select/allow-copy": {
@@ -1996,7 +1996,7 @@
     "type": "string"
   },
   "tiny-currency/size": {
-    "description": "输入框尺寸，只在 type!=\"textarea\" 时有效;该属性的可选值为 medium / small / mini",
+    "description": "输入框尺寸，只在 type!='textarea' 时有效;该属性的可选值为 medium / small / mini",
     "type": "string"
   },
   "tiny-currency/set-default": {
@@ -2180,7 +2180,7 @@
     "type": "boolean"
   },
   "tiny-date-picker/default-time": {
-    "description": "type=\"datetime\" 时，default-time 是一个字符串，用于设置选择一个日期后，时间输入框中的默认值；<br>type=\"datetimerange\" 时，default-time 是一个字符串数组，用于设置选择一个日期范围后，开始和结束时间输入框中的默认值",
+    "description": "type='datetime' 时，default-time 是一个字符串，用于设置选择一个日期后，时间输入框中的默认值；<br>type='datetimerange' 时，default-time 是一个字符串数组，用于设置选择一个日期范围后，开始和结束时间输入框中的默认值",
     "type": "string | string[]"
   },
   "tiny-date-picker/default-value": {
@@ -2212,7 +2212,7 @@
     "type": "boolean"
   },
   "tiny-date-picker/label": {
-    "description": "设置 shape=\"filter\" 属性之后，代表过滤器模式下显示的标题，单独设置 label 属性可以使 label 放置在组件的开始位置",
+    "description": "设置 shape='filter' 属性之后，代表过滤器模式下显示的标题，单独设置 label 属性可以使 label 放置在组件的开始位置",
     "type": "string"
   },
   "tiny-date-picker/modelValue / v-model": {
@@ -2248,7 +2248,7 @@
     "type": "boolean"
   },
   "tiny-date-picker/shape": {
-    "description": "通过 shape=\"filter\" 属性切换至过滤器模式",
+    "description": "通过 shape='filter' 属性切换至过滤器模式",
     "type": "string"
   },
   "tiny-date-picker/show-timezone": {
@@ -2268,7 +2268,7 @@
     "type": "string"
   },
   "tiny-date-picker/step": {
-    "description": "设置 type=\"datetime\" 或者 type=\"datetimerange\" 属性之后，可以通过 step 配置时间的步长，step 是一个对象，包含三个属性：hour、minute、second，分别用来配置时、分、秒的步长",
+    "description": "设置 type='datetime' 或者 type='datetimerange' 属性之后，可以通过 step 配置时间的步长，step 是一个对象，包含三个属性：hour、minute、second，分别用来配置时、分、秒的步长",
     "type": "IStep"
   },
   "tiny-date-picker/suffix-icon": {
@@ -2737,7 +2737,7 @@
   },
   "tiny-dropdown/size": {
     "description": "菜单尺寸。注意：只在 split-button为 true 的情况下生效",
-    "type": "\"medium\" | \"small\" | \"mini\""
+    "type": "'medium' | 'small' | 'mini'"
   },
   "tiny-dropdown/split-button": {
     "description": "下拉触发元素呈现为按钮",
@@ -3440,8 +3440,8 @@
     "type": "'medium' | 'small' | 'mini'"
   },
   "tiny-form/validate-on-rule-change": {
-    "description": "是否在 rules 属性改变后立即触发一次验证（\"deep\"选项新增于3.21.0）",
-    "type": "boolean | \"deep\""
+    "description": "是否在 rules 属性改变后立即触发一次验证（'deep'选项新增于3.21.0）",
+    "type": "boolean | 'deep'"
   },
   "tiny-form/validate-position": {
     "description": "指定校验提示框显示的位置",
@@ -4244,19 +4244,19 @@
     "type": "boolean"
   },
   "tiny-input/autosize": {
-    "description": "自适应内容高度，只对 <code>type=\"textarea\"</code> 有效。可传入对象，如，{ minRows: 2, maxRows: 6 }",
+    "description": "自适应内容高度，只对 <code>type='textarea'</code> 有效。可传入对象，如，{ minRows: 2, maxRows: 6 }",
     "type": "boolean | { minRows: number, maxRows: number }"
   },
   "tiny-input/clearable": {
-    "description": "是否显示清除按钮，该属性不适用于 <code>type=\"textarea\"</code>",
+    "description": "是否显示清除按钮，该属性不适用于 <code>type='textarea'</code>",
     "type": "boolean"
   },
   "tiny-input/cols": {
-    "description": "原生属性，设置宽度，在 type =\"textarea\" 时有效",
+    "description": "原生属性，设置宽度，在 type ='textarea' 时有效",
     "type": "string"
   },
   "tiny-input/counter": {
-    "description": "是否显示字数统计，只在 type = \"text\" 或 type = \"textarea\" 时有效",
+    "description": "是否显示字数统计，只在 type = 'text' 或 type = 'textarea' 时有效",
     "type": "boolean"
   },
   "tiny-input/custom-class": {
@@ -4336,7 +4336,7 @@
     "type": "'both' | 'horizontal' | 'vertical' | 'none'"
   },
   "tiny-input/rows": {
-    "description": "输入框行数，只对 type=\"textarea\" 有效",
+    "description": "输入框行数，只对 type='textarea' 有效",
     "type": "number"
   },
   "tiny-input/show-password": {
@@ -4344,7 +4344,7 @@
     "type": "boolean"
   },
   "tiny-input/show-word-limit": {
-    "description": "是否显示输入字数统计，只在 type = \"text\" 或 type = \"textarea\" 时有效",
+    "description": "是否显示输入字数统计，只在 type = 'text' 或 type = 'textarea' 时有效",
     "type": "boolean"
   },
   "tiny-input/show-tooltip": {
@@ -4352,7 +4352,7 @@
     "type": "boolean"
   },
   "tiny-input/size": {
-    "description": "输入框尺寸，只在 type 为 \"textarea\" 时有效",
+    "description": "输入框尺寸，只在 type 为 'textarea' 时有效",
     "type": "'medium' | 'small' | 'mini'"
   },
   "tiny-input/step": {
@@ -4368,7 +4368,7 @@
     "type": "string"
   },
   "tiny-input/type": {
-    "description": "设置 input 框的 type 属性，默认为 \"text\",可选值 \"text\"，\"textarea\" 和其他 原生 input 的 type 值",
+    "description": "设置 input 框的 type 属性，默认为 'text',可选值 'text'，'textarea' 和其他 原生 input 的 type 值",
     "type": "'text' | 'textarea' | 'password' | InputHTMLAttributes.type"
   },
   "tiny-input/v-model": {
@@ -5586,7 +5586,7 @@
     "type": "boolean"
   },
   "tiny-popover/v-model / modelValue": {
-    "description": "状态是否可见，仅在 <code> trigger=\"manual\" </code> 时有效",
+    "description": "状态是否可见，仅在 <code> trigger='manual' </code> 时有效",
     "type": "boolean"
   },
   "tiny-popover/visible-arrow": {
@@ -6150,7 +6150,7 @@
     "type": "Boolean"
   },
   "tiny-select/all-text": {
-    "description": "当下拉中显示全部时，自定义全部的显示文本。不指定时，则默认显示\"全部\"",
+    "description": "当下拉中显示全部时，自定义全部的显示文本。不指定时，则默认显示'全部'",
     "type": "string"
   },
   "tiny-select/show-all-text-tag": {
@@ -6450,7 +6450,7 @@
     "type": "number"
   },
   "tiny-slider/num-pages": {
-    "description": "设置总步数，即按快捷键 PageDown/PageUp 时，每次移动的距离是 \"⌈(max-min)/num-pages⌉\"",
+    "description": "设置总步数，即按快捷键 PageDown/PageUp 时，每次移动的距离是 '⌈(max-min)/num-pages⌉'",
     "type": "number"
   },
   "tiny-slider/show-input": {
@@ -6671,7 +6671,7 @@
   },
   "tiny-sticky/position": {
     "description": "吸附位置，可选值有 bottom、top，默认为top",
-    "type": "\"bottom\" | \"top\""
+    "type": "'bottom' | 'top'"
   },
   "tiny-sticky/target": {
     "description": "目标元素参照的吸顶容器，不设置时默认为 window",
@@ -6798,7 +6798,7 @@
     "type": "boolean"
   },
   "tiny-tabs/popper-class": {
-    "description": "为\"更多\"下拉页签框添加类名，可用于自定义下拉选项的样式",
+    "description": "为'更多'下拉页签框添加类名，可用于自定义下拉选项的样式",
     "type": "string"
   },
   "tiny-tabs/position": {
@@ -6810,7 +6810,7 @@
     "type": "boolean"
   },
   "tiny-tabs/show-more-tabs": {
-    "description": "设置当页签栏超过一定宽度时是否显示\"更多\"按钮，若为 true，则当鼠标悬停到按钮上时，将出现下拉框展示超出宽度的页签项",
+    "description": "设置当页签栏超过一定宽度时是否显示'更多'按钮，若为 true，则当鼠标悬停到按钮上时，将出现下拉框展示超出宽度的页签项",
     "type": "boolean"
   },
   "tiny-tabs/size": {
@@ -6826,8 +6826,8 @@
     "type": "ITabStyle"
   },
   "tiny-tabs/tooltip-config": {
-    "description": "设置文字超出提示, object 类型的值参考 tooltip 组件的 <a href=\"tooltip#API\">Props</a> 配置，如果想使用默认的 title 属性，可设置为 string 类型，值为 title，【3.8.0版本新增】",
-    "type": "ITooltipProps | \"title\""
+    "description": "设置文字超出提示, object 类型的值参考 tooltip 组件的 <a href='tooltip#API'>Props</a> 配置，如果想使用默认的 title 属性，可设置为 string 类型，值为 title，【3.8.0版本新增】",
+    "type": "ITooltipProps | 'title'"
   },
   "tiny-tabs/v-model": {
     "description": "绑定值，选中选项卡的 name",
@@ -7417,7 +7417,7 @@
   },
   "tiny-transfer/target-order": {
     "description": " 右侧列表元素的插入排序策略<br>\n                &nbsp; 若为 original，则保持与数据源相同的顺序 <br>\n                &nbsp; 若为 push，则新加入的元素排在最后 <br>\n                &nbsp; 若为 unshift，则新加入的元素排在最前。",
-    "type": "\"original\" / \"push\" / \"unshift\""
+    "type": "'original' / 'push' / 'unshift'"
   },
   "tiny-transfer/titles": {
     "description": "自定义列表的标题；不设置titles时，左右列表的标题默认显示为： <code> 列表 1</code>，<code> 列表 2</code>",
@@ -7449,7 +7449,7 @@
   },
   "tiny-tree-menu/allow-drop": {
     "description": "拖拽结束前的回调事件，定义节点是否允许放置到模板节点的规则，返回 true 则允许放置，配合 draggable 属性使用",
-    "type": "(draggingNode: ITreeNodeVm, targetNode: ITreeNodeVm,type: \"prev\"|\"next\"|\"inner\") => boolean"
+    "type": "(draggingNode: ITreeNodeVm, targetNode: ITreeNodeVm,type: 'prev'|'next'|'inner') => boolean"
   },
   "tiny-tree-menu/check-strictly": {
     "description": "是否遵循父级和子级严格不相关联的做法，配合 show-checkbox 属性使用",

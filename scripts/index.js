@@ -173,26 +173,26 @@ function generateWebTypesJson(components) {
               description: item.description,
               type: [item.type],
               default: item.defaultValue,
-              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/action-menu#api`
+              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/${component.name}#api`
             };
           }),
           events: component.events.map((item) => {
             return {
               name: item.name,
               description: item.description,
-              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/action-menu#api`
+              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/${component.name}#api`
             };
           }),
           methods: component.methods.map((item) => {
             return {
               ...item,
-              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/action-menu#api`
+              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/${component.name}#api`
             };
           }),
           slots: component.slots.map((item) => {
             return {
               ...item,
-              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/action-menu#api`
+              "doc-url": `https://opentiny.design/tiny-vue/zh-CN/os-theme/components/${component.name}#api`
             };
           })
         }))
