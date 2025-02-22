@@ -36,3 +36,6 @@ tiny-vue-types/
 │── README.md                   # 项目文档
 
 ```
+### 🐛 Bug 反馈 & 功能请求
+
+如果你在使用过程中遇到 Bug，或者希望新增功能，请在 GitHub Issues 提交反馈：

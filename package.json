@@ -5,6 +5,12 @@
   "files": [
     "types/"
   ],
+  "repository": {
+    "url": "https://github.com/xiaoLangtou/tiny-vue-web-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoLangtou/tiny-vue-web-types/issues"
+  },
   "keywords": [
     "tiny-vue",
     "web-types",
